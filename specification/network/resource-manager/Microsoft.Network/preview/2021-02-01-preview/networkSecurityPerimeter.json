@@ -1118,7 +1118,7 @@
         },
         "location": {
           "type": "string",
-          "description": "A unique read-only string that changes whenever the resource is updated."
+          "description": "The location in which NSP is created."
         },
         "name": {
           "type": "string",
