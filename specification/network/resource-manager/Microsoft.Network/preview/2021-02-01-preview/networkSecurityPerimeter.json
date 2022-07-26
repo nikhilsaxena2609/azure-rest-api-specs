@@ -1168,6 +1168,7 @@
           "description": "The provisioning state of the scope assignment resource."
         },
         "perimeterGuid": {
+          "readOnly": true,
           "type": "string",
           "description": "perimeter guid of the network security perimeter."
         }
