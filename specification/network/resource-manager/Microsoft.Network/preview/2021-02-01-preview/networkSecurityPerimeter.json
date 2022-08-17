@@ -1318,7 +1318,8 @@
         "subscriptions": {
           "type": "array",
           "items": {
-            "type": "string"
+            "x-ms-client-flatten": false,
+            "$ref": "#/definitions/SubscriptionBasedAccessRule"
           },
           "description": "Subscription id in the ARM id format."
         },
@@ -1332,6 +1333,15 @@
         }
       },
       "description": "Properties of NSP access rule."
+    },
+    "SubscriptionBasedAccessRule": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Subscription ID in the ARM ID fromat."
+        }
+      }
     },
     "PerimeterBasedAccessRule": {
       "type": "object",
