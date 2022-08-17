@@ -1289,6 +1289,7 @@
           "description": "The provisioning state of the scope assignment resource."
         },
         "direction": {
+          "required": true,
           "type": "string",
           "enum": [
             "Inbound",
