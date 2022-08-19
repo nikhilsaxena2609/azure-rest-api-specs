@@ -1321,7 +1321,7 @@
           "type": "array",
           "items": {
             "x-ms-client-flatten": false,
-            "$ref": "#/definitions/SubscriptionBasedAccessRule"
+            "$ref": "#/definitions/SubscriptionId"
           },
           "description": "Subscription id in the ARM id format."
         },
@@ -1336,7 +1336,7 @@
       },
       "description": "Properties of NSP access rule."
     },
-    "SubscriptionBasedAccessRule": {
+    "SubscriptionId": {
       "type": "object",
       "properties": {
         "id": {
